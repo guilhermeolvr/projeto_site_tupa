@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+}
+
+header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+i {
+  color: white;
+}
+
+header-butons {
+  display: flex;
+  gap: 14px;
+}
+
+header-butons a:hover i {
+  color: #a238ff;
+}
+
+header-butons a:hover f {
+  color: #ffffff;
+}/*# sourceMappingURL=header.css.map */

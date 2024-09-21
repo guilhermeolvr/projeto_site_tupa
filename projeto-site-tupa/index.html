@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Redirecionamento</title>
+    <script>
+        function redirectBasedOnDevice() {
+            // Verifica se é mobile usando o user agent
+            var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            
+            if (isMobile) {
+                // Redireciona para a versão mobile
+                window.location.href = "/projeto-site-tupa-mobile/index.html";
+            } else {
+                // Redireciona para a versão desktop
+                window.location.href = "/Projeto-site-tupa-desktop/index.html";
+            }
+        }
+
+        // Executa a função de redirecionamento quando a página é carregada
+        window.onload = redirectBasedOnDevice;
+    </script>
+</head>
+
+</html>

@@ -1,0 +1,224 @@
+header{
+  width: 100%; 
+}
+
+.header_container {
+ position: fixed; 
+ top: 0; 
+ left: 0; 
+ width: 100%; 
+ background-color: #333; 
+ z-index: 2;
+ margin-top: 20px; 
+ transition: margin-top 0.5s;
+
+ }
+
+ .header_container.scrolled {
+   margin-top: 0;
+ }
+ 
+/*outra parte inicio do layout*/
+ .container{
+   --bg-overlay-color: rgb(var(--color_12));
+   //padding: 0px;
+   width: 100%;
+   --firstChildMarginTop: -1px;
+   --lastChildMarginBottom: -1px;
+   --items-direction: row;
+   flex: 1;
+ }
+ .butons_container {
+   background-color: #333;   /* cor retangulo do header */
+   //padding: 1rem;
+   width: 100%;
+   margin-top: 20px;  
+ }
+
+.header_content{
+   display: flex;
+   align-items: center;
+   --bg-overlay-color: rgb(var(--color_12));
+   width: 100%;
+   padding: 0px;
+   margin: 0px;
+   min-width: 980px;
+   --firstChildMarginTop: -1px;
+   --lastChildMarginBottom: -1px;
+   --items-direction: row;
+   
+}
+i{
+   color: white;
+}
+
+
+.container_header_arrec_comprar{
+ 
+ display: flex;
+ align-items: center;
+ justify-content: center; /* Centraliza o conteúdo horizontalmente */
+ margin-left: auto; /* Empurra o container para a direita */
+ margin-top: 8px;
+ width: auto; /* Ajusta a largura automaticamente */
+ padding: 0 20px;
+ 
+ 
+ 
+}
+
+.header_logo_buton{
+   --bg-overlay-color: transparent;
+   --bg-gradient: none;
+   width: 100%;
+   width: 200px;
+   --column-flex: 294;
+   
+}
+
+
+#link_menu_burguer {
+  position: absolute;
+  top: 10px; /* Distância do topo */
+  right: 10px; /* Distância da direita */
+  background-color: #303030;
+  color: #ffffff;
+  border-radius: 50%; 
+  width: 50px; 
+  height: 50px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-decoration: none; 
+  transition: background-color 0.3s; 
+  z-index: 30;
+}
+
+#link_menu_burguer:hover {
+  background-color: #505050; 
+}
+
+.overlay_burguer {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0,);
+  z-index: 1000; 
+  display: none; 
+  align-items: top; 
+  justify-content: top;
+
+  animation: animate__backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+.overlay-burguer.show {
+  display: flex; /* Torna o overlay visível */
+  animation: animate__backInDown 2s; /* Adiciona a animação ao abrir */
+}
+
+.overlay-content_burger {
+  display: flex;
+  justify-content: space-between; 
+  background-color: white; /* Fundo branco */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center; /* Centraliza o texto */
+  z-index: 30; 
+}
+
+.overlay-content_burguer {
+  display: flex;
+  justify-content: space-between; /* Para colocar os itens nas extremidades */
+  align-items: center; /* Centraliza verticalmente */
+  width: 100%;
+  height: 100px;
+  padding: 10px; /* Espaçamento interno */
+}
+
+#fechar_overlay_burguer {
+  background-color: transparent;
+  width:39px;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  font-size: 24px; /* Ajuste o tamanho do ícone */
+  margin-top: 10px; /* Espaço acima do botão */
+}
+
+.header_arrec {
+   width: 100%;
+   transition: color 0.5s ease;
+   //padding: 6px 50px;
+   border-radius: 20px;
+   flex-wrap: nowrap;
+   font-size: 22px;
+   margin-top: 50px;
+   text-align: center;
+
+}
+
+.header_arrec a:hover{
+  i{
+   color:#a238ff;
+  }
+}
+
+
+.header_comprar{
+   display: flex;
+   max-width: 280px;
+   gap: 14px;
+   border: 1px solid #a238ff;
+   background-color: #a238ff;
+   padding: 8px 24px;
+   border-radius: 20px;
+   color: #ffffff;
+   box-shadow: 0 0 20px rgba(198, 76, 235, 0.8);
+   transition: background-color 0.5s;
+   flex-wrap: nowrap;
+   word-wrap : break-word;
+   margin-left: -1%;  
+   cursor: pointer;
+   flex-wrap: nowrap;
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
+   
+}
+
+.header_comprar:hover{
+
+   border: 1px solid #ffffff; 
+   background-color: #ffffff;
+   i{
+       color: #000000;
+    }
+}
+
+
+.container_header_arrec_comprar {
+  display: flex;
+   //padding: 0 20px;
+   z-index: 2;
+   
+   margin-top: 8px;
+   width: 600px;
+   
+   
+  //flex: 1;
+ }
+ 
+ @media (max-width: 768px) {
+   .container_header_arrec_comprar {
+     width: 60%; /* adjust width for smaller screens */
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .container_header_arrec_comprar {
+     width: 70%; /* adjust width for even smaller screens */
+   }
+ }

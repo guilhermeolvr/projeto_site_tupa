@@ -1,0 +1,36 @@
+body {
+  background-color: #000000; /* or any other color */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.SITE_CONTAINER {
+  width: 100%;
+  height: 5741px;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: black;
+}
+
+.bg_home::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("https://static.wixstatic.com/media/7936f3_67062c64235d44159c1e17ecb9c7cb14~mv2.jpg/v1/fill/w_2843,h_1332,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7936f3_67062c64235d44159c1e17ecb9c7cb14~mv2.jpg");
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 917px;
+  z-index: -1;
+  background-size: cover;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  justify-content: center;
+}/*# sourceMappingURL=layout.css.map */
