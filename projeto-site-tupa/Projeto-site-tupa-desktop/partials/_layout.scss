@@ -27,7 +27,7 @@
     width: 100%;
     margin: 0 auto;
    // margin-left: 100px;
-    padding: 10px; /* Add some padding for responsiveness */
+    padding: 10px; 
   }
   
   .bg_home::before {
@@ -76,7 +76,7 @@
   .container_explicacao_p1 {
     margin-top: 50px;
     margin-bottom: 20px;
-    margin: 10px; /* Add some margin to center the image */
+    margin: 10px; 
     display: flex;
     justify-content: center;
     flex: 1;
@@ -100,7 +100,7 @@
   }
   
   .container_conclusao_1 {
-    margin: 20px auto; /* Add some margin to center the image */
+    margin: 20px auto; 
     display: flex;
     height: 70px;
     flex: 1;
@@ -126,7 +126,7 @@
     --textShadow: 0px 0px transparent;
     --textOutline: 0px 0px transparent;
     margin-bottom: 0;
-    margin: 20px auto; /* Add some margin to center the image */
+    margin: 20px auto; 
     display: flex;
     justify-content: center;
     flex: 1;
@@ -1437,16 +1437,14 @@
 .container_pai {
   position: relative;
   width: 1550px;
-  height: 1000px; /* Ajuste conforme necessário */
-  /* Apenas para visualização */
+  height: 1000px; 
   min-width: 1160px;
 }
 
 .container_canto {
   position: absolute;
-  width: 100px; /* Ajuste conforme necessário */
-  height: 100px; /* Ajuste conforme necessário */
-   /* Apenas para visualização */
+  width: 100px; 
+  height: 100px; 
 }
 
 .canto1 {
@@ -1471,7 +1469,7 @@
   color: #fff; 
 }
 .canto1 :hover{
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation: pulse; 
   animation-duration: 2s;
   z-index: 2; 
 }
@@ -1498,7 +1496,7 @@
   color: #fff; 
 }
 .canto2 :hover{
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation: pulse; 
   animation-duration: 2s; 
   z-index: 2; 
 }
@@ -1524,7 +1522,7 @@
   color: #fff; 
 }
 .canto3 :hover{
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation: pulse; 
   animation-duration: 2s;
   z-index: 2;  
 }
@@ -1550,7 +1548,7 @@
   color: #fff; 
 }
 .canto4 :hover{
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation: pulse; 
   animation-duration: 2s; 
   z-index: 2; 
 }
@@ -1631,9 +1629,9 @@
 }
 
 .gemea_esquerda{
-  width: 100%; /* Ocupa todo o espaço do container pai */
-  height: 100%; /* Ocupa todo o espaço do container pai */
-  object-fit: cover; /* Garante que a imagem preencha o container */
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
   object-position: 50% 50%;
   
   transition: filter 0.3s ease;
