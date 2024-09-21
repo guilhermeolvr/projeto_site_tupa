@@ -92,7 +92,7 @@ i {
   background-color: #a238ff;
   padding: 8px 24px;
   border-radius: 20px;
-  color: #ffffff; /* Cor padrão do texto */
+  color: #ffffff; 
   box-shadow: 0 0 20px rgba(198, 76, 235, 0.8);
   transition: background-color 0.5s;
   cursor: pointer;
@@ -101,8 +101,8 @@ i {
 }
 
 .header_comprar a {
-  color: #ffffff; /* Cor do texto dentro do link */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #ffffff; 
+  text-decoration: none; 
 }
 
 .header_comprar:hover {
@@ -111,7 +111,7 @@ i {
 }
 
 .header_comprar:hover a {
-  color: #000000; /* Cor do texto ao passar o mouse */
+  color: #000000; 
 }
 
 .container_header_arrec_comprar {
@@ -123,12 +123,12 @@ i {
 
 @media (max-width: 768px) {
   .container_header_arrec_comprar {
-    width: 60%; /* adjust width for smaller screens */
+    width: 60%; 
   }
 }
 @media (max-width: 480px) {
   .container_header_arrec_comprar {
-    width: 70%; /* adjust width for even smaller screens */
+    width: 70%; 
   }
 }
 /* Global styles */
@@ -156,7 +156,7 @@ i {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 10px; /* Add some padding for responsiveness */
+  padding: 10px; 
 }
 
 .bg_home::before {
@@ -181,7 +181,7 @@ i {
   padding: 1rem;
   position: relative;
   margin-top: 100px;
-  margin-left: 15%; /* Posição fixa a partir da esquerda */
+  margin-left: 15%; 
   border-radius: 50px;
   height: 400px; /* Altura fixa */
   width: 813px; /* Largura fixa */
@@ -204,7 +204,7 @@ i {
 .container_explicacao_p1 {
   margin-top: 50px;
   margin-bottom: 20px;
-  margin: 10px; /* Add some margin to center the image */
+  margin: 10px; 
   display: flex;
   justify-content: center;
   flex: 1;
@@ -227,7 +227,7 @@ i {
 }
 
 .container_conclusao_1 {
-  margin: 20px auto; /* Add some margin to center the image */
+  margin: 20px auto; 
   display: flex;
   height: 70px;
   flex: 1;
@@ -254,20 +254,20 @@ i {
   --textShadow: 0px 0px transparent;
   --textOutline: 0px 0px transparent;
   margin-bottom: 0;
-  margin: 20px auto; /* Add some margin to center the image */
+  margin: 20px auto; 
   display: flex;
   justify-content: center;
   flex: 1;
 }
 
-/* Cel styles */
+
 .container_cel_grande {
   position: relative;
-  right: 100px; /* Posição fixa */
-  top: 180px; /* Posição fixa */
-  width: 800px; /* Largura fixa */
-  height: 487px; /* Altura fixa */
-  transform: rotate(342deg); /* Mantém a rotação */
+  right: 100px; 
+  top: 180px; 
+  width: 800px; 
+  height: 487px; 
+  transform: rotate(342deg); 
   margin-top: 120px;
   z-index: 1;
   min-width: 800px;
@@ -416,16 +416,14 @@ i {
 
 .container_pai_sobre_p2 {
   width: 100%;
-  height: auto; /* Permite que a altura se ajuste ao conteúdo */
+  height: auto; 
   display: flex;
-  /* Ajusta o conteúdo horizontalmente */
-  /* Espaçamento entre os itens */
-  flex-wrap: nowrap; /* Permite que os itens quebrem linha */
+  flex-wrap: nowrap; 
 }
 
 .conatiner_sobre_p2 {
-  width: 40%; /* Ajuste conforme necessário */
-  height: auto; /* Permite que a altura se ajuste ao conteúdo */
+  width: 40%; 
+  height: auto; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -434,8 +432,8 @@ i {
 }
 
 .container_imagem_sobre_p2 {
-  width: 60%; /* Ajuste conforme necessário */
-  height: auto; /* Permite que a altura se ajuste ao conteúdo */
+  width: 60%; 
+  height: auto; 
   display: flex;
   justify-content: center;
   z-index: 5;
@@ -622,9 +620,9 @@ i {
 
 .container_divisao_1_conclusao {
   width: 100%;
-  display: flex; /* Torna o container flexível */
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  align-items: center; /* Centraliza o conteúdo verticalmente, se necessário */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
   min-width: 980px;
   padding: 40px 0; /* Adiciona espaçamento opcional */
   min-width: 674px;
@@ -636,17 +634,17 @@ i {
 }
 
 .diminuir_tamanho {
-  max-width: 674px; /* Define o tamanho da div como 60% da largura disponível */
-  text-align: center; /* Centraliza o texto */
+  max-width: 674px; 
+  text-align: center; 
   font-size: 17px;
   line-height: 1.6em;
   min-width: 674px;
 }
 
-/* Estilo para garantir que o texto na div diminua para caber em duas linhas */
+
 .container_divisao_1_explicacao p {
-  max-width: 100%; /* Faz com que o parágrafo se ajuste ao tamanho da div */
-  width: 674px; /* Garante que o texto ocupe toda a largura da div interna */
+  max-width: 100%; 
+  width: 674px; 
   text-align: center;
   line-height: 1.6em;
   font-size: 17px;
@@ -1296,17 +1294,17 @@ i {
   width: 100%;
   height: 60px;
   display: flex;
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  align-items: center; /* Centraliza o conteúdo verticalmente */
+  justify-content: center; 
+  align-items: center; 
   text-align: center;
   min-width: 1160px;
 }
 
 .linha_25_align {
   display: flex;
-  justify-content: center; /* Centraliza o conteúdo dentro do elemento */
+  justify-content: center; 
   align-items: center;
-  width: auto; /* Ajusta a largura automaticamente ao conteúdo */
+  width: auto; 
   text-align: center;
   margin-right: 130px;
   font-family: "Montserrat", sans-serif;
@@ -1375,9 +1373,9 @@ i {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; /* ou ajuste conforme necessário */
-  height: auto; /* ou ajuste conforme necessário */
-  opacity: 0; /* ajuste a opacidade se desejar */
+  width: 100%; 
+  height: auto; 
+  opacity: 0; 
   display: block;
 }
 
@@ -1459,23 +1457,21 @@ i {
   width: 100%;
   height: 1276px;
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
+  justify-content: center; 
   align-items: center;
 }
 
 .container_pai {
   position: relative;
   width: 1550px;
-  height: 1000px; /* Ajuste conforme necessário */
-  /* Apenas para visualização */
+  height: 1000px; 
   min-width: 1160px;
 }
 
 .container_canto {
   position: absolute;
-  width: 100px; /* Ajuste conforme necessário */
-  height: 100px; /* Ajuste conforme necessário */
-  /* Apenas para visualização */
+  width: 100px; 
+  height: 100px; 
 }
 
 .canto1 {
@@ -1502,7 +1498,7 @@ i {
 }
 
 .canto1 :hover {
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation: pulse; 
   animation-duration: 2s;
   z-index: 2;
 }
@@ -1531,7 +1527,7 @@ i {
 }
 
 .canto2 :hover {
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation: pulse; 
   animation-duration: 2s;
   z-index: 2;
 }
@@ -1559,7 +1555,7 @@ i {
 }
 
 .canto3 :hover {
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation: pulse; 
   animation-duration: 2s;
   z-index: 2;
 }
@@ -1587,7 +1583,7 @@ i {
 }
 
 .canto4 :hover {
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation: pulse; 
   animation-duration: 2s;
   z-index: 2;
 }
@@ -1614,7 +1610,7 @@ i {
   margin-top: 750px;
   gap: 50px;
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
+  justify-content: center; 
   align-items: center;
 }
 
@@ -1630,41 +1626,41 @@ i {
   width: 100%;
   height: 954px;
   display: flex;
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center; 
 }
 
 .alinhar_gemeas {
-  width: 1515px; /* Soma das larguras das duas imagens */
+  width: 1515px; 
   height: 954px;
-  display: flex; /* Layout flexível */
-  justify-content: space-between; /* Garante que as imagens fiquem lado a lado */
+  display: flex; 
+  justify-content: space-between; 
   align-items: center;
 }
 
 .container_gemea_esquerda {
-  position: relative; /* Permite a sobreposição de conteúdo */
+  position: relative; 
   width: 737.5px;
   height: 954px;
 }
 
 .texto_gemea_esquerda {
-  position: absolute; /* Sobrepõe o texto na imagem */
+  position: absolute; 
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Centraliza o texto */
+  transform: translate(-50%, -50%); 
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  z-index: 2; /* Garante que o texto fique por cima da imagem */
+  z-index: 2; 
   color: #fff;
 }
 
 .gemea_esquerda {
-  width: 100%; /* Ocupa todo o espaço do container pai */
-  height: 100%; /* Ocupa todo o espaço do container pai */
+  width: 100%; 
+  height: 100%; 
   -o-object-fit: cover;
-     object-fit: cover; /* Garante que a imagem preencha o container */
+     object-fit: cover; 
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
   transition: filter 0.3s ease;
@@ -1681,10 +1677,10 @@ i {
 }
 
 .gemea_direita {
-  width: 100%; /* Ocupa todo o espaço do container pai */
-  height: 100%; /* Ocupa todo o espaço do container pai */
+  width: 100%; 
+  height: 100%; 
   -o-object-fit: cover;
-     object-fit: cover; /* Garante que a imagem preencha o container */
+     object-fit: cover; 
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
   top: 0;
@@ -1692,15 +1688,15 @@ i {
 }
 
 .texto_gemea_direita {
-  position: absolute; /* Sobrepõe o texto na imagem */
+  position: absolute; 
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Centraliza o texto */
+  transform: translate(-50%, -50%); 
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  z-index: 2; /* Garante que o texto fique por cima da imagem */
+  z-index: 2; 
   color: #fff;
 }
 
@@ -1748,7 +1744,7 @@ i {
 
 .menus_alinhar_por_linha {
   width: 900px;
-  height: 80px; /* tamanho inicial */
+  height: 80px; 
   position: relative;
   padding-left: 20px;
   border-bottom: 1px solid #fff;
@@ -1756,7 +1752,7 @@ i {
 }
 
 .menus_alinhar_por_linha.expandir {
-  height: 150px; /* tamanho após o clique */
+  height: 150px; 
 }
 
 .menus_alinhar_por_linha :hover {
@@ -1809,13 +1805,13 @@ nav li a {
 
 .dropdown_toggle {
   position: relative;
-  padding-right: 30px; /* add some space for the arrow */
+  padding-right: 30px; 
 }
 
 .container_seta_cima {
   position: absolute;
   top: 60%;
-  right: 10px; /* adjust the value to move the arrow to the right */
+  right: 10px; 
   transform: translateY(-50%);
   fill: rgb(255, 255, 255);
 }
@@ -1851,13 +1847,13 @@ nav li a {
 .container_email {
   width: 940px;
   height: 450px;
-  display: flex; /* add flexbox to container_email */
-  flex-direction: column; /* stack elements vertically */
+  display: flex; 
+  flex-direction: column; 
 }
 
 .email_titulo {
-  flex: 1; /* occupy half of the vertical space */
-  width: 100%; /* occupy full width */
+  flex: 1; 
+  width: 100%; 
 }
 
 .email_titulo h2 {
@@ -1873,14 +1869,14 @@ nav li a {
 }
 
 .email_campo {
-  flex: 1; /* occupy half of the vertical space */
-  width: 100%; /* occupy full width */
+  flex: 1; 
+  width: 100%; 
 }
 
 .container_txt_box_email {
   display: flex;
   justify-content: center;
-  align-items: center; /* add this to center vertically */
+  align-items: center; 
   width: 100%;
   height: 77px;
   margin-top: 30px;
@@ -1903,15 +1899,15 @@ nav li a {
 }
 
 .txt_box_email::-moz-placeholder {
-  color: #000000; /* add this to set the placeholder text color to black */
+  color: #000000; 
 }
 
 .txt_box_email::placeholder {
-  color: #000000; /* add this to set the placeholder text color to black */
+  color: #000000; 
 }
 
 .botao_enviar {
-  position: absolute; /* add absolute positioning */
+  position: absolute; 
   margin-left: 300px;
   z-index: 2;
   display: flex;
@@ -1944,7 +1940,7 @@ nav li a {
 }
 
 .obrigado {
-  display: none; /* torna o texto invisível */
+  display: none; 
 }
 
 .footer {
@@ -1986,7 +1982,7 @@ nav li a {
 
 .container_footer {
   display: grid;
-  grid-template-rows: 1fr 1fr; /* divide the container into two equal rows */
+  grid-template-rows: 1fr 1fr; 
   height: 348px;
   width: 100%;
 }
@@ -1994,11 +1990,11 @@ nav li a {
 .footer_p1 {
   grid-row: 1;
   display: flex;
-  flex-wrap: wrap; /* add this property */
+  flex-wrap: wrap; 
   justify-content: center;
   align-items: center;
   gap: 320px;
-  width: 80%; /* adjust the width to your liking */
+  width: 80%; 
   border-bottom: 0.5px solid #707070;
   margin: 0 auto;
   min-width: 900px;
@@ -2020,7 +2016,7 @@ nav li a {
 }
 
 .txt_footer_p2 a {
-  color: #707070; /* altere a cor para a mesma do texto */
+  color: #707070; 
   text-decoration: underline;
 }
 
