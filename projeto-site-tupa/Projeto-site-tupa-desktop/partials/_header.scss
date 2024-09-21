@@ -29,7 +29,7 @@ header{
     flex: 1;
   }
   .butons_container {
-    background-color: #333;   /* cor retangulo do header */
+    background-color: #333;   
     //padding: 1rem;
     width: 100%;
     margin-top: 20px;  
@@ -57,10 +57,10 @@ i{
   
   display: flex;
   align-items: center;
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  margin-left: auto; /* Empurra o container para a direita */
+  justify-content: center; 
+  margin-left: auto; 
   margin-top: 8px;
-  width: auto; /* Ajusta a largura automaticamente */
+  width: auto; 
   padding: 0 20px;
   
   
@@ -132,12 +132,12 @@ i{
   
   @media (max-width: 768px) {
     .container_header_arrec_comprar {
-      width: 60%; /* adjust width for smaller screens */
+      width: 60%; 
     }
   }
   
   @media (max-width: 480px) {
     .container_header_arrec_comprar {
-      width: 70%; /* adjust width for even smaller screens */
+      width: 70%; 
     }
   }
